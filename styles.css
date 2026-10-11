@@ -85,6 +85,9 @@ h2 { margin: 0; font-size: clamp(2rem, 3.4vw, 3.2rem); letter-spacing: -.06em; l
 .project-description { color: var(--muted); max-width: 740px; font-size: .9rem; margin: 13px 0 18px; }
 .tag-list { display: flex; gap: 7px; flex-wrap: wrap; }
 .tag-list span { font: .65rem var(--mono); color: #c4ced9; border: 1px solid var(--line); border-radius: 3px; padding: 5px 8px; }
+.project-links { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 16px; }
+.project-links a { display: inline-flex; align-items: center; gap: 6px; font: 500 .78rem var(--sans); color: var(--accent); border-bottom: 1px solid rgba(185,243,107,.35); padding-bottom: 2px; transition: color .2s ease, border-color .2s ease; }
+.project-links a:hover { color: #cdfb8e; border-color: #cdfb8e; }
 .project-arrow { color: var(--accent); font-size: 1.25rem; }
 .project-footnote { max-width: 800px; color: var(--muted-dark); font-size: .75rem; margin-top: 25px; }
 .skills-section { background: #101722; }
