@@ -89,7 +89,6 @@ h2 { margin: 0; font-size: clamp(2rem, 3.4vw, 3.2rem); letter-spacing: -.06em; l
 .project-links a { display: inline-flex; align-items: center; gap: 6px; font: 500 .78rem var(--sans); color: var(--accent); border-bottom: 1px solid rgba(185,243,107,.35); padding-bottom: 2px; transition: color .2s ease, border-color .2s ease; }
 .project-links a:hover { color: #cdfb8e; border-color: #cdfb8e; }
 .project-arrow { color: var(--accent); font-size: 1.25rem; }
-.project-footnote { max-width: 800px; color: var(--muted-dark); font-size: .75rem; margin-top: 25px; }
 .skills-section { background: #101722; }
 .skills-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
 .skill-card { min-height: 240px; padding: 25px 23px; border: 1px solid var(--line); border-radius: 5px; background: rgba(255,255,255,.02); }
@@ -97,7 +96,6 @@ h2 { margin: 0; font-size: clamp(2rem, 3.4vw, 3.2rem); letter-spacing: -.06em; l
 .skill-icon { margin: 24px 0 16px; color: var(--accent); font-size: 1.65rem; line-height: 1; }
 .skill-card h3 { font-size: 1rem; letter-spacing: -.03em; margin: 0 0 10px; }
 .skill-card p { color: var(--muted); font-size: .8rem; line-height: 1.75; margin: 0; }
-.small-note { color: var(--muted-dark); font-size: .72rem; margin: 22px 0 0; }
 .experience-section { background: #f0f3f6; color: #15202d; }
 .experience-section h2 span { color: #5d8d2a; }
 .experience-content { border-left: 1px solid #cdd6df; padding-left: 30px; }
